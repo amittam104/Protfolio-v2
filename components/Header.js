@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { LinkedinLogo, XLogo } from "@phosphor-icons/react/dist/ssr";
+import { LinkedinLogo, Phone, XLogo } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -43,7 +43,10 @@ function Header() {
           </Link>
         </div>
         <div>
-          <Button>Let&apos;s Connect</Button>
+          <Button className="flex items-center gap-2">
+            Let&apos;s Connect
+            <Phone size={20} />
+          </Button>
         </div>
       </div>
     </header>
