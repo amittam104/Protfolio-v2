@@ -18,10 +18,12 @@ function Hero() {
       </p>
       <div className="flex items-center gap-4">
         <Button variant="secondary">Know More</Button>
-        <Button className="flex items-center gap-2">
-          Let&apos;s Connect
-          <Phone size={20} />
-        </Button>
+        <Link href="https://cal.com/amittambulkar/30min" target="_blank">
+          <Button className="flex items-center gap-2">
+            Let&apos;s Connect
+            <Phone size={20} />
+          </Button>
+        </Link>
       </div>
     </section>
   );

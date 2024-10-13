@@ -8,7 +8,10 @@ import {
 
 function Services() {
   return (
-    <section className="mb-40 flex w-full items-center justify-center bg-neutral-200/80 px-10 py-24">
+    <section
+      id="services"
+      className="mb-40 flex w-full items-center justify-center bg-neutral-200/80 px-10 py-24"
+    >
       <div className="rounded-xl bg-white px-14 py-16">
         <p className="mb-2 text-sm text-blue-600">Areas</p>
         <h2 className="mb-12 text-4xl font-light tracking-tight">

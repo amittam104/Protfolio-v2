@@ -2,7 +2,10 @@ import { RowsPlusTop, Stack } from "@phosphor-icons/react/dist/ssr";
 
 function Skills() {
   return (
-    <section className="mx-auto mb-40 flex max-w-6xl flex-col items-center text-center">
+    <section
+      id="skill"
+      className="mx-auto mb-40 flex max-w-6xl flex-col items-center text-center"
+    >
       <div>
         <p className="mb-2 text-sm text-blue-600">Skills</p>
         <h2 className="mb-16 text-4xl font-light tracking-tight">
