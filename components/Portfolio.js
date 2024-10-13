@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 function Portfolio() {
   return (
@@ -33,22 +34,26 @@ function Portfolio() {
               redeem points to get free AI tokens.
             </p>
             <div className="mb-8 flex gap-3 text-sm">
-              <Badge>AI Integration</Badge>
-              <Badge>Auth & Payment</Badge>
+              <Badge className="bg-orange-600 hover:bg-orange-600/90">
+                AI Integration
+              </Badge>
               <Badge>100+ Visitors</Badge>
+              <Badge>Auth & Payment</Badge>
             </div>
-            <Button
-              variant="link"
-              className="p-0 transition-all delay-100 ease-in-out"
-            >
-              Visit BuildnPlay →
-            </Button>
+            <Link href="https://www.buildnplay.site/" target="_blank">
+              <Button
+                variant="link"
+                className="p-0 transition-all delay-100 ease-in-out"
+              >
+                Visit BuildnPlay →
+              </Button>
+            </Link>
           </div>
         </div>
         <div className="row-span-7 overflow-hidden rounded-2xl shadow-xl">
           <div className="relative h-72 w-full">
             <Image
-              src="/BuildnPlay.png"
+              src="/BentoHub.png"
               fill
               className="h-100 w-full object-cover"
               alt="BuildnPlay.site Homepage"
@@ -61,16 +66,20 @@ function Portfolio() {
               paste it on to the top of your GitHub Profile readme.
             </p>
             <div className="mb-8 flex gap-3 text-sm">
-              <Badge>AI Integration</Badge>
-              <Badge>Auth & Payment</Badge>
-              <Badge>100+ Visitors</Badge>
+              <Badge className="bg-emerald-600 hover:bg-emerald-600/90">
+                3K+ Unique Visitors
+              </Badge>
+              <Badge>Auto Image gen</Badge>
+              <Badge>HTML Canvas</Badge>
             </div>
-            <Button
-              variant="link"
-              className="p-0 transition-all delay-100 ease-in-out"
-            >
-              Visit BuildnPlay →
-            </Button>
+            <Link href="https://www.bentohub.online/" target="_blank">
+              <Button
+                variant="link"
+                className="p-0 transition-all delay-100 ease-in-out"
+              >
+                Visit BentoHub →
+              </Button>
+            </Link>
           </div>
         </div>
         <div className="row-span-9 overflow-hidden rounded-2xl shadow-xl">
@@ -89,15 +98,19 @@ function Portfolio() {
               transactions, other data.
             </p>
             <div className="mb-8 flex gap-3 text-sm">
-              <Badge>AI Integration</Badge>
+              <Badge className="bg-indigo-600 hover:bg-indigo-600/90">
+                Interactive Dashboard
+              </Badge>
               <Badge>Auth & Payment</Badge>
               <Badge>100+ Visitors</Badge>
             </div>
             <Button
-              variant="link"
-              className="p-0 transition-all delay-100 ease-in-out"
+              variant="destructive"
+              disabled
+              size="xs"
+              className="px-2 py-1 text-xs transition-all delay-100 ease-in-out"
             >
-              Visit BuildnPlay →
+              ON HOLD
             </Button>
           </div>
         </div>
