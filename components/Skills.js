@@ -286,7 +286,7 @@ function Skills() {
             </div>
           </div>
           <div className="self-start text-left">
-            <Stack size={32} className="mb-4" />
+            <Stack size={32} className="mb-4 text-blue-600" />
             <h3 className="mb-1 text-lg font-semibold">Core Stack</h3>
             <p className="text-sm text-slate-600">
               Core technologies in web development that I use
@@ -436,7 +436,7 @@ function Skills() {
             </div>
           </div>
           <div className="self-start text-left">
-            <RowsPlusTop size={32} className="mb-4" />
+            <RowsPlusTop size={32} className="mb-4 text-blue-600" />
             <h3 className="mb-1 text-lg font-semibold">Add Ons</h3>
             <p className="text-sm text-slate-600">Additional tools I used</p>
           </div>

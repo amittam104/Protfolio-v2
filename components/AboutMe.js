@@ -12,38 +12,30 @@ function AboutMe() {
       id="services"
       className="mb-24 flex w-full flex-col items-start justify-center bg-neutral-950 px-24 py-24 text-white"
     >
-      <p className="mb-2 text-sm text-blue-600">Areas</p>
+      <p className="mb-2 text-sm text-blue-600">About Me</p>
       <h2 className="mb-12 text-4xl font-light tracking-tight">
-        I can help with you
+        A little more about me
       </h2>
-      <div>
-        <ul className="space-y-10 font-light">
-          <li className="flex items-center gap-2">
-            <Monitor size={22} className="mr-1 text-yellow-600" />
-            <span className="font-medium">Websites </span>
-            <p> - HTML, CSS and JavaScript</p>
-          </li>
-          <li className="flex items-center gap-2">
-            <Atom size={22} className="mr-1 text-blue-600" />
-            <span className="font-medium">Frontend </span>
-            <p>
-              - React, Tailwind CSS, Redux / Con mr-1 text API, React Query etc.
-            </p>
-          </li>
-          <li className="flex items-center gap-2">
-            <Database size={22} className="mr-1 text-neutral-800" />
-            <span className="font-medium">Full Stack </span>
-            <p>- Next JS, Tailwind CSS, DB, Auth, Payment, AI integration</p>
-          </li>
-          <li className="flex items-center gap-2">
-            <PencilCircle size={22} className="mr-1 text-purple-600" />
-            <span className="font-medium">Web Design </span>
-
-            <p>
-              - Website Landing Design, Web application design and copywriting
-            </p>
-          </li>
-        </ul>
+      <div className="grid w-full grid-cols-2 grid-rows-2 gap-12">
+        <div className="row-span-2">
+          <p className="mb-6">Hey, I&apos;m Amit</p>
+          <p className="mb-6">
+            Web Developer from India who is designing and building web
+            applications that people can use.
+          </p>
+          <p className="mb-6">
+            I have been building different applications from more than a year.
+            Some of them have collectively got more than 3000 visitors and
+            counting. Along with the development I have also found myself
+            designing the applications from scratch.
+          </p>
+          <p>
+            Right now I am working on this project called
+            &apos;BuildnPlay&apos;, which is an app to gamify the building in
+            public process.
+          </p>
+        </div>
+        <div className="row-span-2"></div>
       </div>
     </section>
   );

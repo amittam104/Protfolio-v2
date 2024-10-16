@@ -34,9 +34,7 @@ function Portfolio() {
               redeem points to get free AI tokens.
             </p>
             <div className="mb-8 flex gap-3 text-sm">
-              <Badge className="bg-orange-600 hover:bg-orange-600/90">
-                AI Integration
-              </Badge>
+              <Badge>AI Integration</Badge>
               <Badge>100+ Visitors</Badge>
               <Badge>Auth & Payment</Badge>
             </div>
@@ -66,9 +64,7 @@ function Portfolio() {
               paste it on to the top of your GitHub Profile readme.
             </p>
             <div className="mb-8 flex gap-3 text-sm">
-              <Badge className="bg-emerald-600 hover:bg-emerald-600/90">
-                3K+ Unique Visitors
-              </Badge>
+              <Badge>3K+ Unique Visitors</Badge>
               <Badge>Auto Image gen</Badge>
               <Badge>HTML Canvas</Badge>
             </div>
@@ -98,9 +94,7 @@ function Portfolio() {
               transactions, other data.
             </p>
             <div className="mb-8 flex gap-3 text-sm">
-              <Badge className="bg-indigo-600 hover:bg-indigo-600/90">
-                Interactive Dashboard
-              </Badge>
+              <Badge>Interactive Dashboard</Badge>
               <Badge>Auth & Payment</Badge>
               <Badge>100+ Visitors</Badge>
             </div>

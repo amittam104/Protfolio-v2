@@ -1,5 +1,6 @@
 import { Phone } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 function Hero() {
   return (
