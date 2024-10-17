@@ -1,6 +1,7 @@
 import { Phone } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import ConnectButton from "./ConnectButton";
 
 function Hero() {
   return (
@@ -19,12 +20,7 @@ function Hero() {
       </p>
       <div className="flex items-center gap-4">
         <Button variant="secondary">Know More</Button>
-        <Link href="https://cal.com/amittambulkar/30min" target="_blank">
-          <Button className="flex items-center gap-2">
-            Let&apos;s Connect
-            <Phone size={20} />
-          </Button>
-        </Link>
+        <ConnectButton />
       </div>
     </section>
   );

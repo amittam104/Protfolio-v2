@@ -18,21 +18,26 @@ function AboutMe() {
       </h2>
       <div className="grid w-full grid-cols-2 grid-rows-2 gap-12">
         <div className="row-span-2">
-          <p className="mb-6">Hey, I&apos;m Amit</p>
+          <p className="mb-6">Hi, I&apos;m Amit,</p>
           <p className="mb-6">
-            Web Developer from India who is designing and building web
-            applications that people can use.
+            a web developer from India passionate about designing and building
+            web applications that people love to use.
           </p>
           <p className="mb-6">
-            I have been building different applications from more than a year.
-            Some of them have collectively got more than 3000 visitors and
-            counting. Along with the development I have also found myself
-            designing the applications from scratch.
+            With over a year of experience, I&apos;ve developed various
+            applications that have collectively attracted more than 3,000
+            visitors—and counting! In addition to development, I often design
+            applications from scratch, ensuring they are both functional and
+            visually appealing.
+          </p>
+          <p className="mb-6">
+            Currently, I&apos;m working on BuildnPlay, a platform that gamifies
+            the “building in public” process, helping users stay motivated and
+            engaged as they work on their projects.
           </p>
           <p>
-            Right now I am working on this project called
-            &apos;BuildnPlay&apos;, which is an app to gamify the building in
-            public process.
+            If you ever need assistance with development or design, feel free to
+            reach out—I&apos;m happy to chat and help!
           </p>
         </div>
         <div className="row-span-2"></div>

@@ -15,7 +15,7 @@ function Services() {
       <div className="rounded-xl bg-white px-14 py-16">
         <p className="mb-2 text-sm text-blue-600">Areas</p>
         <h2 className="mb-12 text-4xl font-light tracking-tight">
-          I can help with you
+          I can help you with
         </h2>
         <div>
           <ul className="space-y-10 font-light">

@@ -17,7 +17,7 @@ function Portfolio() {
           </p> */}
       </div>
       <div className="grid-rows-20 grid w-full grid-cols-2 items-start gap-12">
-        <div className="row-span-9 overflow-hidden rounded-2xl shadow-xl">
+        <div className="row-span-9 overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
           <div className="relative h-[28rem] w-full">
             <Image
               src="/BuildnPlay.png"
@@ -48,7 +48,7 @@ function Portfolio() {
             </Link>
           </div>
         </div>
-        <div className="row-span-7 overflow-hidden rounded-2xl shadow-xl">
+        <div className="row-span-7 overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
           <div className="relative h-72 w-full">
             <Image
               src="/BentoHub.png"
@@ -78,10 +78,10 @@ function Portfolio() {
             </Link>
           </div>
         </div>
-        <div className="row-span-9 overflow-hidden rounded-2xl shadow-xl">
+        <div className="row-span-9 overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
           <div className="relative h-72 w-full">
             <Image
-              src="/BuildnPlay.png"
+              src="/Pai.png"
               fill
               className="h-100 w-full object-cover"
               alt="BuildnPlay.site Homepage"
@@ -98,14 +98,14 @@ function Portfolio() {
               <Badge>Auth & Payment</Badge>
               <Badge>100+ Visitors</Badge>
             </div>
-            <Button
-              variant="destructive"
-              disabled
-              size="xs"
-              className="px-2 py-1 text-xs transition-all delay-100 ease-in-out"
-            >
-              ON HOLD
-            </Button>
+            <Link href="https://pai-three.vercel.app" target="_blank">
+              <Button
+                variant="link"
+                className="p-0 transition-all delay-100 ease-in-out"
+              >
+                Visit Pai →
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

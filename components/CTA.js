@@ -1,5 +1,6 @@
 import { Phone } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "./ui/button";
+import ConnectButton from "./ConnectButton";
 
 function CTA() {
   return (
@@ -18,10 +19,7 @@ function CTA() {
         you can email me on amittambulkar104@gmail.com
       </p>
       <div className="flex items-center gap-4">
-        <Button className="flex items-center gap-2">
-          Let&apos;s Connect
-          <Phone size={20} />
-        </Button>
+        <ConnectButton />
       </div>
     </section>
   );

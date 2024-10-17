@@ -2,12 +2,13 @@ import { Button } from "@/components/ui/button";
 import { LinkedinLogo, Phone, XLogo } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
+import ConnectButton from "./ConnectButton";
 
 function Header() {
   return (
     <header
       id="header"
-      className="mx-[4.5rem] my-6 mb-40 flex items-center justify-between"
+      className="mx-auto my-6 mb-40 flex max-w-6xl items-center justify-between"
     >
       <div className="flex items-center gap-4">
         <Image
@@ -43,12 +44,7 @@ function Header() {
           </Link>
         </div>
         <div>
-          <Link href="https://cal.com/amittambulkar/30min" target="_blank">
-            <Button className="flex items-center gap-2">
-              Let&apos;s Connect
-              <Phone size={20} />
-            </Button>
-          </Link>
+          <ConnectButton />
         </div>
       </div>
     </header>
