@@ -12,10 +12,10 @@ function Skills() {
           Skills you are looking for
         </h2>
       </div>
-      <div className="grid w-full grid-cols-10 gap-x-12">
+      <div className="flex w-full flex-col gap-12 md:grid md:grid-cols-10 md:gap-x-12">
         <div className="col-span-7 flex w-full flex-col items-stretch gap-12 rounded-2xl bg-neutral-100 p-10 shadow-lg">
           <div className="flex flex-col gap-6">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-wrap items-center justify-between">
               <div className="flex flex-col items-center gap-2">
                 <svg
                   width="60"

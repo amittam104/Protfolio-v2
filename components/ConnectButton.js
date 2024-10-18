@@ -4,7 +4,7 @@ import { Phone } from "@phosphor-icons/react/dist/ssr";
 
 function ConnectButton() {
   return (
-    <Link href="https://cal.com/amittambulkar/30min" target="_blank">
+    <Link href="https://cal.com/amittambulkar" target="_blank">
       <Button className="flex items-center gap-2">
         Let&apos;s Connect
         <Phone size={20} />

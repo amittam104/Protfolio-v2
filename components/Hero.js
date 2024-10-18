@@ -1,6 +1,3 @@
-import { Phone } from "@phosphor-icons/react/dist/ssr";
-import { Button } from "./ui/button";
-import Link from "next/link";
 import ConnectButton from "./ConnectButton";
 
 function Hero() {
@@ -9,7 +6,7 @@ function Hero() {
       id="hero"
       className="mx-auto mb-40 flex max-w-3xl flex-col items-center justify-center text-center"
     >
-      <h1 className="mb-8 flex items-center justify-center gap-8 text-6xl">
+      <h1 className="mb-8 flex flex-wrap items-center justify-center gap-8 text-6xl">
         <span className="font-light tracking-tighter">Design</span>
         <span className="font-light tracking-tighter">Develop</span>
         <span className="font-light tracking-tighter">Deploy</span>

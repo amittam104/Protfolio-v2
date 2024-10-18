@@ -19,7 +19,7 @@ function Portfolio() {
             visitors on them.
           </p> */}
       </div>
-      <div className="grid-rows-20 grid w-full grid-cols-2 items-start gap-12">
+      <div className="md:grid-rows-20 flex w-full flex-col gap-12 md:grid md:grid-cols-2 md:items-start">
         <div className="row-span-9 overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
           <div className="relative h-[28rem] w-full">
             <Image
