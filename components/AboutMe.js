@@ -9,8 +9,8 @@ import {
 function AboutMe() {
   return (
     <section
-      id="services"
-      className="mb-24 flex w-full flex-col items-start justify-center bg-neutral-950 px-24 py-24 text-white"
+      id="about"
+      className="mb-24 flex w-full flex-col items-start justify-center bg-neutral-950 px-36 py-24 text-white"
     >
       <p className="mb-2 text-sm text-blue-600">About Me</p>
       <h2 className="mb-12 text-4xl font-light tracking-tight">

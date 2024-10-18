@@ -14,7 +14,7 @@ const inter = Inter({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={`scroll-smooth ${inter.className}`}>
       <body className="text-slate-950">{children}</body>
     </html>
   );

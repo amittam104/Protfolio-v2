@@ -19,7 +19,7 @@ function Hero() {
         months (Focused on Frontend Development)
       </p>
       <div className="flex items-center gap-4">
-        <Button variant="secondary">Know More</Button>
+        {/* <Button variant="secondary">Know More</Button> */}
         <ConnectButton />
       </div>
     </section>

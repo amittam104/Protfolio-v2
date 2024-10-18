@@ -28,22 +28,21 @@ function Services() {
               <Atom size={22} className="mr-1 text-blue-600" />
               <span className="font-medium">Frontend </span>
               <p>
-                - React, Tailwind CSS, Redux / Con mr-1 text API, React Query
-                etc.
+                - React, Tailwind CSS, Redux / Context API, React Query etc.
               </p>
             </li>
             <li className="flex items-center gap-2">
               <Database size={22} className="mr-1 text-neutral-800" />
               <span className="font-medium">Full Stack </span>
-              <p>- Next JS, Tailwind CSS, DB, Auth, Payment, AI integration</p>
+              <p>
+                - Next JS, Tailwind CSS, MongoDB, Auth, Payment, AI integration
+              </p>
             </li>
             <li className="flex items-center gap-2">
               <PencilCircle size={22} className="mr-1 text-purple-600" />
               <span className="font-medium">Web Design </span>
 
-              <p>
-                - Website Landing Design, Web application design and copywriting
-              </p>
+              <p>- Figma, Web application design and copywriting</p>
             </li>
           </ul>
         </div>

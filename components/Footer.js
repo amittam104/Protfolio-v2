@@ -18,9 +18,15 @@ function Footer() {
       <div className="flex items-center gap-8">
         <nav>
           <ul className="flex items-center gap-8 text-sm">
-            <li>Portfolio</li>
-            <li>Skills</li>
-            <li>About</li>
+            <li>
+              <Link href="#header">Home</Link>
+            </li>
+            <li>
+              <Link href="#portfolio">Portfolio</Link>
+            </li>
+            <li>
+              <Link href="#skills">Skills</Link>
+            </li>
           </ul>
         </nav>
         <div className="flex items-center gap-4">
