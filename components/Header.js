@@ -27,7 +27,7 @@ function Header() {
   return (
     <header
       id="header"
-      className="mx-4 my-6 mb-40 flex items-center justify-between md:mx-auto md:max-w-6xl"
+      className="mx-6 my-6 mb-20 flex items-center justify-between lg:mx-auto lg:mb-40 lg:max-w-4xl xl:max-w-6xl"
     >
       <div className="flex items-center gap-4">
         <Image
@@ -38,7 +38,7 @@ function Header() {
         />
         <p className="text-sm">Amit Tambulkar</p>
       </div>
-      <div className="hidden items-center gap-8 md:flex">
+      <div className="hidden items-center gap-8 lg:flex">
         <nav>
           <ul className="flex items-center gap-8 text-sm">
             <li>
@@ -74,7 +74,7 @@ function Header() {
       </div>
       <Sheet>
         <SheetTrigger asChild>
-          <Button variant="outline" size="icon" className="shrink-0 md:hidden">
+          <Button variant="outline" size="icon" className="shrink-0 lg:hidden">
             <List className="h-5 w-5" />
             <span className="sr-only">Toggle navigation menu</span>
           </Button>
@@ -132,10 +132,12 @@ function Header() {
           <div className="mt-auto">
             <Card>
               <CardHeader>
-                <CardTitle>Let&apos;s have a Chat</CardTitle>
+                <CardTitle className="text-xl">
+                  Let&apos;s have a Chat
+                </CardTitle>
                 <CardDescription>
-                  If you ever need assistance with development or design, feel
-                  free to reach out—I&apos;m happy to chat and help!
+                  You don&apos;t have to fill any form, just hop on a quick
+                  15-30 min call
                 </CardDescription>
               </CardHeader>
               <CardContent>

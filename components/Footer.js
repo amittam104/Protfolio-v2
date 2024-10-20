@@ -5,8 +5,8 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="mx-auto mb-12 flex max-w-6xl items-center justify-between">
-      <div className="flex items-center gap-4">
+    <footer className="mx-6 mb-12 flex flex-col items-center justify-between md:mx-8 md:max-w-4xl md:flex-row lg:mx-auto lg:max-w-6xl">
+      <div className="mb-6 flex items-center gap-4 md:mb-0">
         <Image
           width={32}
           height={32}
@@ -15,7 +15,7 @@ function Footer() {
         />
         <p className="text-sm">Amit Tambulkar</p>
       </div>
-      <div className="flex items-center gap-8">
+      <div className="flex flex-col items-center gap-8 md:flex-row">
         <nav>
           <ul className="flex items-center gap-8 text-sm">
             <li>

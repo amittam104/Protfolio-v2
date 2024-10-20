@@ -4,7 +4,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="mx-auto mb-40 flex max-w-6xl flex-col items-center text-center"
+      className="mx-6 mb-20 flex flex-col items-center text-center lg:mx-auto lg:mb-40 lg:max-w-6xl"
     >
       <div>
         <p className="mb-2 text-sm text-blue-600">Skills</p>
@@ -14,12 +14,12 @@ function Skills() {
       </div>
       <div className="flex w-full flex-col gap-12 md:grid md:grid-cols-10 md:gap-x-12">
         <div className="col-span-7 flex w-full flex-col items-stretch gap-12 rounded-2xl bg-neutral-100 p-10 shadow-lg">
-          <div className="flex flex-col gap-6">
-            <div className="flex flex-wrap items-center justify-between">
+          <div className="flex flex-col gap-12">
+            <div className="flex flex-wrap items-center justify-between gap-6">
               <div className="flex flex-col items-center gap-2">
                 <svg
-                  width="60"
-                  height="60"
+                  width="52"
+                  height="52"
                   viewBox="0 0 70 70"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -35,8 +35,8 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center gap-2">
                 <svg
-                  width="60"
-                  height="60"
+                  width="52"
+                  height="52"
                   viewBox="0 0 71 70"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -52,8 +52,8 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center gap-2">
                 <svg
-                  width="60"
-                  height="60"
+                  width="52"
+                  height="52"
                   viewBox="0 0 71 70"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,8 +82,8 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center gap-2">
                 <svg
-                  width="60"
-                  height="60"
+                  width="52"
+                  height="52"
                   viewBox="0 0 71 70"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -116,8 +116,8 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center gap-2">
                 <svg
-                  width="60"
-                  height="60"
+                  width="52"
+                  height="52"
                   viewBox="0 0 71 70"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -146,8 +146,8 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center gap-2">
                 <svg
-                  width="60"
-                  height="60"
+                  width="52"
+                  height="52"
                   viewBox="0 0 70 70"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -162,11 +162,11 @@ function Skills() {
                 <p className="text-sm text-slate-500">MongoDB</p>
               </div>
             </div>
-            <div className="flex items-center justify-center gap-8">
+            <div className="flex flex-wrap items-center justify-center gap-12">
               <div className="flex flex-col items-center gap-2">
                 <svg
-                  width="45"
-                  height="45"
+                  width="42"
+                  height="42"
                   viewBox="0 0 61 60"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -192,8 +192,8 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center gap-2">
                 <svg
-                  width="45"
-                  height="45"
+                  width="42"
+                  height="42"
                   viewBox="0 0 61 60"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -219,8 +219,8 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center gap-2">
                 <svg
-                  width="45"
-                  height="45"
+                  width="42"
+                  height="42"
                   viewBox="0 0 61 60"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -246,8 +246,8 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center gap-2">
                 <svg
-                  width="45"
-                  height="45"
+                  width="42"
+                  height="42"
                   viewBox="0 0 62 54"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"

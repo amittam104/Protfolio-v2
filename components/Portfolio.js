@@ -19,9 +19,9 @@ function Portfolio() {
             visitors on them.
           </p> */}
       </div>
-      <div className="md:grid-rows-20 flex w-full flex-col gap-12 md:grid md:grid-cols-2 md:items-start">
-        <div className="row-span-9 overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
-          <div className="relative h-[28rem] w-full">
+      <div className="md:grid-rows-20 mx-6 flex flex-col gap-12 md:grid md:grid-cols-2 md:items-start">
+        <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-lg md:row-span-9">
+          <div className="relative h-[14rem] w-full md:h-[28rem]">
             <Image
               src="/BuildnPlay.png"
               fill
@@ -36,7 +36,7 @@ function Portfolio() {
               continue streak to earn reach levels, reach levels to earn points,
               redeem points to get free AI tokens.
             </p>
-            <div className="mb-8 flex gap-3 text-sm">
+            <div className="mb-8 flex flex-wrap gap-3 text-sm md:flex-row">
               <Badge>AI Integration</Badge>
               <Badge>100+ Visitors</Badge>
               <Badge>Auth & Payment</Badge>
@@ -51,8 +51,8 @@ function Portfolio() {
             </Link>
           </div>
         </div>
-        <div className="row-span-7 overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
-          <div className="relative h-72 w-full">
+        <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-lg md:row-span-7">
+          <div className="relative h-60 w-full md:h-72">
             <Image
               src="/BentoHub.png"
               fill
@@ -66,7 +66,7 @@ function Portfolio() {
               Build your own bento grid, copy the HTML or Markdown code and
               paste it on to the top of your GitHub Profile readme.
             </p>
-            <div className="mb-8 flex gap-3 text-sm">
+            <div className="mb-8 flex flex-wrap gap-3 text-sm md:flex-row">
               <Badge>3K+ Unique Visitors</Badge>
               <Badge>Auto Image gen</Badge>
               <Badge>HTML Canvas</Badge>
@@ -81,8 +81,8 @@ function Portfolio() {
             </Link>
           </div>
         </div>
-        <div className="row-span-9 overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
-          <div className="relative h-72 w-full">
+        <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-lg md:row-span-9">
+          <div className="relative h-60 w-full md:h-72">
             <Image
               src="/Pai.png"
               fill
@@ -96,7 +96,7 @@ function Portfolio() {
               Internal Bank management application to handle all the accounts,
               transactions, other data.
             </p>
-            <div className="mb-8 flex gap-3 text-sm">
+            <div className="mb-8 flex flex-wrap gap-3 text-sm md:flex-row">
               <Badge>Interactive Dashboard</Badge>
               <Badge>Auth & Payment</Badge>
               <Badge>100+ Visitors</Badge>
