@@ -27,7 +27,7 @@ function Header() {
   return (
     <header
       id="header"
-      className="mx-6 my-6 mb-20 flex items-center justify-between lg:mx-auto lg:mb-40 lg:max-w-4xl xl:max-w-6xl"
+      className="mx-6 mb-20 flex items-center justify-between py-6 lg:mx-auto lg:mb-40 lg:max-w-4xl xl:max-w-6xl"
     >
       <div className="flex items-center gap-4">
         <Image
@@ -41,13 +41,13 @@ function Header() {
       <div className="hidden items-center gap-8 lg:flex">
         <nav>
           <ul className="flex items-center gap-8 text-sm">
-            <li>
+            <li className="transition-colors delay-75 ease-in-out hover:text-blue-600">
               <Link href="#portfolio">Portfolio</Link>
             </li>
-            <li>
+            <li className="transition-colors delay-75 ease-in-out hover:text-blue-600">
               <Link href="#skills">Skills</Link>
             </li>
-            <li>
+            <li className="transition-colors delay-75 ease-in-out hover:text-blue-600">
               <Link href="#about">About</Link>
             </li>
           </ul>
@@ -82,7 +82,7 @@ function Header() {
         <SheetContent side="right" className="flex flex-col">
           <nav className="grid gap-2 text-lg font-medium">
             <Link
-              href="#"
+              href=""
               className="mb-3 flex items-center gap-2 text-lg font-semibold"
             >
               <Image
@@ -93,41 +93,51 @@ function Header() {
               />
               <span className="sr-only">Amit Tambulkar</span>
             </Link>
-            <Link
-              href="#"
-              className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:bg-muted hover:text-foreground"
-            >
-              <House weight="duotone" className="h-5 w-5" />
-              Home
-            </Link>
-            <Link
-              href="#"
-              className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:bg-muted hover:text-foreground"
-            >
-              <BriefcaseMetal weight="duotone" className="h-5 w-5" />
-              Portfolio
-            </Link>
-            <Link
-              href="#"
-              className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:bg-muted hover:text-foreground"
-            >
-              <Package weight="duotone" className="h-5 w-5" />
-              Skills
-            </Link>
-            <Link
-              href="#"
-              className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:bg-muted hover:text-foreground"
-            >
-              <Users weight="duotone" className="h-5 w-5" />
-              Areas
-            </Link>
-            <Link
-              href="#"
-              className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:bg-muted hover:text-foreground"
-            >
-              <ChartLine weight="duotone" className="h-5 w-5" />
-              About Me
-            </Link>
+            <SheetTrigger asChild>
+              <Link
+                href="#header"
+                className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:bg-muted hover:text-foreground"
+              >
+                <House weight="duotone" className="h-5 w-5" />
+                Home
+              </Link>
+            </SheetTrigger>
+            <SheetTrigger asChild>
+              <Link
+                href="#portfolio"
+                className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:bg-muted hover:text-foreground"
+              >
+                <BriefcaseMetal weight="duotone" className="h-5 w-5" />
+                Portfolio
+              </Link>
+            </SheetTrigger>
+            <SheetTrigger asChild>
+              <Link
+                href="#skills"
+                className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:bg-muted hover:text-foreground"
+              >
+                <Package weight="duotone" className="h-5 w-5" />
+                Skills
+              </Link>
+            </SheetTrigger>
+            <SheetTrigger asChild>
+              <Link
+                href="#services"
+                className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:bg-muted hover:text-foreground"
+              >
+                <Users weight="duotone" className="h-5 w-5" />
+                Services
+              </Link>
+            </SheetTrigger>
+            <SheetTrigger asChild>
+              <Link
+                href="#about"
+                className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:bg-muted hover:text-foreground"
+              >
+                <ChartLine weight="duotone" className="h-5 w-5" />
+                About Me
+              </Link>
+            </SheetTrigger>
           </nav>
           <div className="mt-auto">
             <Card>

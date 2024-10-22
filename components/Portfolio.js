@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="mx-auto mb-40 flex max-w-6xl flex-col items-center text-center"
+      className="mx-auto mb-28 flex max-w-6xl flex-col items-center pt-12 text-center"
     >
       <div>
         <p className="mb-2 text-sm text-blue-600">Portfolio</p>

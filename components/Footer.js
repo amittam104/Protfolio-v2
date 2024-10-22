@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="mx-6 mb-12 flex flex-col items-center justify-between md:mx-8 md:max-w-4xl md:flex-row lg:mx-auto lg:max-w-6xl">
+    <footer className="mx-6 mb-10 flex flex-col items-center justify-between md:mx-8 md:max-w-4xl md:flex-row lg:mx-auto lg:max-w-6xl">
       <div className="mb-6 flex items-center gap-4 md:mb-0">
         <Image
           width={32}

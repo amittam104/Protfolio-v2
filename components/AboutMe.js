@@ -10,13 +10,13 @@ function AboutMe() {
   return (
     <section
       id="about"
-      className="mb-24 flex w-full flex-col items-start justify-center bg-neutral-950 px-36 py-24 text-white"
+      className="mb-20 flex w-full flex-col items-start justify-center bg-neutral-950 px-8 py-24 text-white md:px-20 lg:px-36"
     >
       <p className="mb-2 text-sm text-blue-600">About Me</p>
       <h2 className="mb-12 text-4xl font-light tracking-tight">
         A little more about me
       </h2>
-      <div className="grid w-full grid-cols-2 grid-rows-2 gap-12">
+      <div className="flex w-full flex-col gap-12 lg:grid lg:grid-cols-2 lg:grid-rows-2">
         <div className="row-span-2">
           <p className="mb-6">Hi, I&apos;m Amit,</p>
           <p className="mb-6">
@@ -40,7 +40,7 @@ function AboutMe() {
             reach out—I&apos;m happy to chat and help!
           </p>
         </div>
-        <div className="row-span-2"></div>
+        <div className="row-span-2 hidden lg:block"></div>
       </div>
     </section>
   );
