@@ -22,6 +22,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import ConnectButton from "./ConnectButton";
+import { ModeToggle } from "./ModeToggle";
 
 function Header() {
   return (
@@ -67,6 +68,7 @@ function Header() {
           >
             <XLogo size={22} />
           </Link>
+          <ModeToggle />
         </div>
         <div>
           <ConnectButton />

@@ -10,9 +10,11 @@ function AboutMe() {
   return (
     <section
       id="about"
-      className="mb-20 flex w-full flex-col items-start justify-center bg-neutral-950 px-8 py-24 text-white md:px-20 lg:px-36"
+      className="mb-20 flex w-full flex-col items-start justify-center bg-neutral-950 px-8 py-24 text-white dark:bg-slate-400/20 dark:text-slate-100 md:px-20 lg:px-36"
     >
-      <p className="mb-2 text-sm text-blue-600">About Me</p>
+      <p className="mb-2 text-sm text-blue-600 dark:text-blue-500/70">
+        About Me
+      </p>
       <h2 className="mb-12 text-4xl font-light tracking-tight">
         A little more about me
       </h2>

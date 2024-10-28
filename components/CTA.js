@@ -10,12 +10,14 @@ function CTA() {
       className="mx-auto mb-20 flex max-w-6xl flex-col items-center text-center lg:mb-40"
     >
       <div className="mb-4">
-        <p className="mb-2 text-sm text-blue-600">Your Action</p>
+        <p className="mb-2 text-sm text-blue-600 dark:text-blue-500/70">
+          Your Action
+        </p>
         <h2 className="text-4xl font-light tracking-tight">
           Let&apos;s build something amazing, together
         </h2>
       </div>
-      <p className="mx-6 mb-4 text-base text-slate-600 md:w-[40%]">
+      <p className="mx-6 mb-4 text-base text-slate-600 dark:text-slate-300 md:w-[40%]">
         You don&apos;t have to fill any form, just hop on a 15-30 min call. or
         connect with me on any of these social sites.
         {/* Or you can email me on amittambulkar104@gmail.com */}
