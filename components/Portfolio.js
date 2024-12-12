@@ -1,11 +1,17 @@
+"use client";
+
 import Image from "next/image";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { motion } from "motion/react";
 
 function Portfolio() {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0, y: -10 }}
+      whileInView={{ opacity: 1, transition: { duration: 1, y: 10 } }}
+      viewport={{ once: true }}
       id="portfolio"
       className="mx-auto mb-28 flex max-w-6xl flex-col items-center pt-12 text-center"
     >
@@ -132,7 +138,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

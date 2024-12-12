@@ -1,11 +1,17 @@
+"use client";
+
 import { LinkedinLogo, Phone, XLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "./ui/button";
 import ConnectButton from "./ConnectButton";
 import Link from "next/link";
+import { motion } from "motion/react";
 
 function CTA() {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0, y: -10 }}
+      whileInView={{ opacity: 1, transition: { duration: 1, y: 10 } }}
+      viewport={{ once: true }}
       id="cta"
       className="mx-auto mb-20 flex max-w-6xl flex-col items-center text-center lg:mb-40"
     >
@@ -41,7 +47,7 @@ function CTA() {
       <div className="flex items-center gap-4">
         <ConnectButton />
       </div>
-    </section>
+    </motion.section>
   );
 }
 

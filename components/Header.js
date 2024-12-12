@@ -1,3 +1,5 @@
+"use client";
+
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -23,10 +25,14 @@ import Image from "next/image";
 import Link from "next/link";
 import ConnectButton from "./ConnectButton";
 import { ModeToggle } from "./ModeToggle";
+import { motion } from "motion/react";
 
 function Header() {
   return (
-    <header
+    <motion.header
+      initial={{ opacity: 0, y: -10 }}
+      whileInView={{ opacity: 1, transition: { duration: 1, y: 10 } }}
+      viewport={{ once: true }}
       id="header"
       className="mx-6 mb-20 flex items-center justify-between py-6 lg:mx-auto lg:mb-40 lg:max-w-4xl xl:max-w-6xl"
     >
@@ -159,7 +165,7 @@ function Header() {
           </div>
         </SheetContent>
       </Sheet>
-    </header>
+    </motion.header>
   );
 }
 

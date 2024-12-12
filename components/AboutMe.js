@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Atom,
   Database,
@@ -5,10 +7,14 @@ import {
   Monitor,
   PencilCircle,
 } from "@phosphor-icons/react/dist/ssr";
+import { motion } from "motion/react";
 
 function AboutMe() {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0, y: -10 }}
+      whileInView={{ opacity: 1, transition: { duration: 1, y: 10 } }}
+      viewport={{ once: true }}
       id="about"
       className="mb-20 flex w-full flex-col items-start justify-center bg-neutral-950 px-8 py-24 text-white dark:bg-slate-400/20 dark:text-slate-100 md:px-20 lg:px-36"
     >
@@ -44,7 +50,7 @@ function AboutMe() {
         </div>
         <div className="row-span-2 hidden lg:block"></div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

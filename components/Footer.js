@@ -1,11 +1,16 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { LinkedinLogo, Phone, XLogo } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "motion/react";
 
 function Footer() {
   return (
-    <footer className="mx-6 mb-10 flex flex-col items-center justify-between md:mx-8 md:max-w-4xl md:flex-row lg:mx-auto lg:max-w-6xl">
+    <motion.footer initial={{ opacity: 0, y: -10 }}
+    whileInView={{ opacity: 1, transition: { duration: 1, y: 10 } }}
+    viewport={{ once: true }} className="mx-6 mb-10 flex flex-col items-center justify-between md:mx-8 md:max-w-4xl md:flex-row lg:mx-auto lg:max-w-6xl">
       <div className="mb-6 flex items-center gap-4 md:mb-0">
         <Image
           width={32}
@@ -46,7 +51,7 @@ function Footer() {
           </Link>
         </div>
       </div>
-    </footer>
+    </motion.footer>
   );
 }
 

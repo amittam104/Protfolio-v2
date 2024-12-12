@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Atom,
   Database,
@@ -5,10 +7,14 @@ import {
   Monitor,
   PencilCircle,
 } from "@phosphor-icons/react/dist/ssr";
+import { motion } from "motion/react";
 
 function Services() {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0, y: -10 }}
+      whileInView={{ opacity: 1, transition: { duration: 1, y: 10 } }}
+      viewport={{ once: true }}
       id="services"
       className="mb-20 flex w-full items-center justify-center bg-neutral-200/80 px-6 py-24 dark:bg-slate-900 lg:mb-40"
     >
@@ -62,7 +68,7 @@ function Services() {
           </ul>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

@@ -1,8 +1,14 @@
+"use client";
+
 import { RowsPlusTop, Stack } from "@phosphor-icons/react/dist/ssr";
+import { motion } from "motion/react";
 
 function Skills() {
   return (
-    <section
+    <motion.section
+    initial={{ opacity: 0, y: -10 }}
+      whileInView={{ opacity: 1, transition: { duration: 1, y: 10 } }}
+      viewport={{ once: true }}
       id="skills"
       className="mx-6 mb-20 flex flex-col items-center pt-12 text-center lg:mx-auto lg:mb-40 lg:max-w-6xl"
     >
@@ -446,7 +452,7 @@ function Skills() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
