@@ -51,13 +51,12 @@ function Portfolio() {
                 Auth & Payment
               </Badge>
             </div>
-            <Link href="https://www.buildnplay.site/" target="_blank">
-              <Button
-                variant="link"
-                className="p-0 transition-all delay-100 ease-in-out"
-              >
-                Visit BuildnPlay →
-              </Button>
+            <Link
+              href="https://www.buildnplay.site/"
+              target="_blank"
+              className="relative text-sm text-slate-800 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-300 hover:text-blue-600 hover:after:scale-x-100"
+            >
+              Visit BuildnPlay →
             </Link>
           </div>
         </div>
@@ -87,13 +86,12 @@ function Portfolio() {
                 HTML Canvas
               </Badge>
             </div>
-            <Link href="https://www.bentohub.online/" target="_blank">
-              <Button
-                variant="link"
-                className="p-0 transition-all delay-100 ease-in-out"
-              >
-                Visit BentoHub →
-              </Button>
+            <Link
+              href="https://www.bentohub.online/"
+              target="_blank"
+              className="relative text-sm text-slate-800 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-300 hover:text-blue-600 hover:after:scale-x-100"
+            >
+              Visit BentoHub →
             </Link>
           </div>
         </div>
@@ -123,13 +121,13 @@ function Portfolio() {
                 3 interactive components
               </Badge>
             </div>
-            <Link href="https://pai-three.vercel.app" target="_blank">
-              <Button
-                variant="link"
-                className="p-0 transition-all delay-100 ease-in-out"
-              >
-                Visit Pai →
-              </Button>
+            <Link
+              href="https://vitark.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="relative text-sm text-slate-800 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-300 hover:text-blue-600 hover:after:scale-x-100"
+            >
+              Visit Vitark →
             </Link>
           </div>
         </div>
