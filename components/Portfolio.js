@@ -22,10 +22,6 @@ function Portfolio() {
         <h2 className="mb-16 text-4xl font-light tracking-tight">
           Explore My Recent Work
         </h2>
-        {/* <p className="text-base text-slate-600">
-            Here are my latest project / products.
-            visitors on them.
-          </p> */}
       </div>
       <div className="md:grid-rows-20 mx-6 flex flex-col gap-12 md:grid md:grid-cols-2 md:items-start">
         <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-lg dark:border-slate-800 md:row-span-9">
@@ -111,20 +107,20 @@ function Portfolio() {
             />
           </div>
           <div className="flex flex-col items-start p-8 text-left">
-            <h3 className="mb-4 text-lg font-semibold">Pai</h3>
+            <h3 className="mb-4 text-lg font-semibold">Vitark</h3>
             <p className="mb-8 text-sm text-slate-600 dark:text-slate-300">
-              Internal Bank management application to handle all the accounts,
-              transactions, other data.
+              Library for logical components which are ready-to-use functional
+              React components designed to streamline your development process
             </p>
             <div className="mb-8 flex flex-wrap gap-3 text-sm md:flex-row">
               <Badge className="dark:border dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">
-                Interactive Dashboard
+                Documentation
               </Badge>
               <Badge className="dark:border dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">
-                Auth & Payment
+                Copy & Paste Code
               </Badge>
               <Badge className="dark:border dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">
-                100+ Visitors
+                3 interactive components
               </Badge>
             </div>
             <Link href="https://pai-three.vercel.app" target="_blank">
