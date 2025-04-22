@@ -27,6 +27,42 @@ function Portfolio() {
         <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-lg dark:border-slate-800 md:row-span-9">
           <div className="relative h-[14rem] w-full md:h-[28rem]">
             <Image
+              src="/Logtofit.png"
+              fill
+              className="h-100 w-full object-cover dark:brightness-50"
+              alt="Logtofit Homepage"
+            />
+          </div>
+          <div className="flex flex-col items-start p-8 text-left">
+            <h3 className="mb-4 text-lg font-semibold">Logtofit</h3>
+            <p className="mb-8 text-sm text-slate-600 dark:text-slate-300">
+              Fitness logging made easy for busy people. Log food, body
+              measurements, goals, common meals and more by just chatting with
+              AI
+            </p>
+            <div className="mb-8 flex flex-wrap gap-3 text-sm md:flex-row">
+              <Badge className="dark:border dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">
+                AI Chat Logging
+              </Badge>
+              <Badge className="dark:border dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">
+                App Integrations
+              </Badge>
+              <Badge className="dark:border dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">
+                Auth & Payment
+              </Badge>
+            </div>
+            <Link
+              href="https://www.logtofit.com/"
+              target="_blank"
+              className="relative text-sm text-slate-800 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-300 hover:text-blue-600 hover:after:scale-x-100"
+            >
+              Visit Logtofit →
+            </Link>
+          </div>
+        </div>
+        <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-lg dark:border-slate-800 md:row-span-9">
+          <div className="relative h-[14rem] w-full md:h-[28rem]">
+            <Image
               src="/BuildnPlay.png"
               fill
               className="h-100 w-full object-cover dark:brightness-50"
@@ -92,42 +128,6 @@ function Portfolio() {
               className="relative text-sm text-slate-800 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-300 hover:text-blue-600 hover:after:scale-x-100"
             >
               Visit BentoHub →
-            </Link>
-          </div>
-        </div>
-        <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-lg dark:border-slate-800 md:row-span-9">
-          <div className="relative h-60 w-full md:h-72">
-            <Image
-              src="/Pai.png"
-              fill
-              className="h-100 w-full object-cover dark:brightness-50"
-              alt="BuildnPlay.site Homepage"
-            />
-          </div>
-          <div className="flex flex-col items-start p-8 text-left">
-            <h3 className="mb-4 text-lg font-semibold">Vitark</h3>
-            <p className="mb-8 text-sm text-slate-600 dark:text-slate-300">
-              Library for logical components which are ready-to-use functional
-              React components designed to streamline your development process
-            </p>
-            <div className="mb-8 flex flex-wrap gap-3 text-sm md:flex-row">
-              <Badge className="dark:border dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">
-                Documentation
-              </Badge>
-              <Badge className="dark:border dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">
-                Copy & Paste Code
-              </Badge>
-              <Badge className="dark:border dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">
-                3 interactive components
-              </Badge>
-            </div>
-            <Link
-              href="https://vitark.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="relative text-sm text-slate-800 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-300 hover:text-blue-600 hover:after:scale-x-100"
-            >
-              Visit Vitark →
             </Link>
           </div>
         </div>
